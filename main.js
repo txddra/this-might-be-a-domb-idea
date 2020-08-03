@@ -9,3 +9,6 @@ const heading = document.querySelector('h1')
 //changes the size of the font for the header
 heading.style.fontSize ='5em'
 
+const item13 = document.querySelector('#item-13')
+//changes the transparency
+item13.style.opacity = '0.5'
