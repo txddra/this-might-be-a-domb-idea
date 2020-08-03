@@ -23,5 +23,7 @@ image.src ='http://www.tioxic.com/wp-content/uploads/trex_4.jpg'
 //changes the size of the image
 image.style.height = '300px'
 
+//manually added a new picture in the html
 const pinkDino = document.querySelector('#secondDino')
+//changed the height of the image
 pinkDino.style.height ='300px'
