@@ -10,5 +10,9 @@ const heading = document.querySelector('h1')
 heading.style.fontSize ='5em'
 
 const item13 = document.querySelector('#item-13')
-//changes the transparency
+//changes the text's transparency
 item13.style.opacity = '0.5'
+
+const item3 = document.querySelector('#item-3')
+//changes the text's text
+item3.innerText = 'I say,"Hi!"'
