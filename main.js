@@ -16,3 +16,7 @@ item13.style.opacity = '0.5'
 const item3 = document.querySelector('#item-3')
 //changes the text's text
 item3.innerText = 'I say,"Hi!"'
+
+const image = document.querySelector('img')
+//changes the image.. adds a source
+image.src ='http://www.tioxic.com/wp-content/uploads/trex_4.jpg'
