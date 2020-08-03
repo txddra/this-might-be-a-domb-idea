@@ -22,3 +22,6 @@ const image = document.querySelector('img')
 image.src ='http://www.tioxic.com/wp-content/uploads/trex_4.jpg'
 //changes the size of the image
 image.style.height = '300px'
+
+const pinkDino = document.querySelector('#secondDino')
+pinkDino.style.height ='300px'
