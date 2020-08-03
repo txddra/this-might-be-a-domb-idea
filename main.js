@@ -20,3 +20,5 @@ item3.innerText = 'I say,"Hi!"'
 const image = document.querySelector('img')
 //changes the image.. adds a source
 image.src ='http://www.tioxic.com/wp-content/uploads/trex_4.jpg'
+//changes the size of the image
+image.style.height = '300px'
