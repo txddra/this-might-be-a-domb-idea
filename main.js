@@ -30,8 +30,11 @@ pinkDino.style.height ='300px'
 
 //add a list item using JS
 const addedLI = document.createElement('li')
-addedLI.className="item"
-addedLI.setAttribute('id','#item-16')
+addedLI.className = 'item'
+addedLI.id = '#item-16'
+// addedLI.setAttribute('id','#item-16');
 // give the same class as the others
 // addedLI.element.classList.add('.item')
-addedLI.innerText ="Won't get fooled again"
+addedLI.innerText ='Won\'t get fooled again'
+const list = document.querySelector('ul')
+list.appendChild(addedLI)
