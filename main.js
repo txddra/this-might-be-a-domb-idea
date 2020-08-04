@@ -27,3 +27,11 @@ image.style.height = '300px'
 const pinkDino = document.querySelector('#secondDino')
 //changed the height of the image
 pinkDino.style.height ='300px'
+
+//add a list item using JS
+const addedLI = document.createElement('li')
+addedLI.className="item"
+addedLI.setAttribute('id','#item-16')
+// give the same class as the others
+// addedLI.element.classList.add('.item')
+addedLI.innerText ="Won't get fooled again"
